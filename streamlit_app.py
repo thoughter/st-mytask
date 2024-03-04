@@ -9,7 +9,7 @@ def submit():
     st.session_state.tasks.append(st.session_state.task_input)    
     st.session_state.task_input=''
     
-st.title('My Task')
+st.title('My Tasks')
 
 task=st.text_input('Enter a task',key="task_input",on_change=submit)
 
